@@ -1,21 +1,22 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, Input } from '@angular/core';
 import { NgIf } from '@angular/common';
 import { GettingDataService } from '../getting-data.service';
+import { SecondBlockComponent } from '../second-block/second-block.component';
 
 @Component({
   selector: 'app-third-block',
   standalone: true,
-  imports: [NgIf],
+  imports: [NgIf,SecondBlockComponent],
   template: `
     <h3>
       Blok Z długą nazwą która sama się przytnie tego już nie widać
     </h3>
-    <div >{{ content.getText(1) }}</div>
+    <div >{{ text }}</div>
   `,
   styles: ``
 })
 export class ThirdBlockComponent {
   content = inject(GettingDataService);
-  dataBaseOption: number = 0;
+  @Input() text: string = "";
 
 }

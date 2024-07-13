@@ -6,7 +6,7 @@ body{
 }
 app-header{
     width: 100%;
-    height: 8vw;
+    height: 8vh;
     background-color: #0b0c10;
     position: fixed;
     top: 0;
@@ -16,25 +16,36 @@ app-header{
     flex-wrap: nowrap;
     align-items: center;
     padding: auto;
+    a{
+        margin: 3%;
+    }
 }
 app-heading1{
-    top: 8vw;
-    height: 8vw;
-    align-items: center;
-    display: flex;
-    padding: auto;
+    top: 8vh;
+    height: 8vh;
+    width: 100%;
     position: fixed;
+    text-align: center;
+    padding: auto;
+    h1{
+        text-align: center;
+    }
 }
 section{
-    top: 16vw;
-    bottom: 8vw;
+    top: 16vh;
+    bottom: 8vh;
     width: 100%;
+    text-align: center;
     display: flex;
     position: fixed;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     background-color: #2a2d36;
+    form{
+        text-align: left;
+        margin: 5%;
+    }
 }
 app-first-block{
     width: 33.3%;
@@ -56,5 +67,9 @@ app-footer{
     flex-wrap: nowrap;
     align-items: center;
     padding: 10px;
-    height: 8vw;
+    height: 8vh;
+    button{
+        margin: 3%;
+    }
+    
 }
