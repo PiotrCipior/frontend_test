@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { GettingDataService } from '../getting-data.service';
 
 @Component({
   selector: 'app-second-block',

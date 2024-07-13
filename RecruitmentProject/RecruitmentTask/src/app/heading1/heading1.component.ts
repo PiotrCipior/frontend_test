@@ -4,11 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-heading1',
   standalone: true,
   imports: [],
-  template: `
-    <h1>
-      Nagłówek H1
-    </h1>
-  `,
+  templateUrl: "./heading1.component.html",
   styles: ``
 })
 export class Heading1Component {

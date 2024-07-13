@@ -1,25 +1,60 @@
-*{
+body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-}
-header{
-    padding: auto;
-    background-color: #0b0c10;
-}
-main{
-    background-color: 2a2d36;
+    color: white;
     background-color: #2a2d36;
-    height: 20vw;
+}
+app-header{
+    width: 100%;
+    height: 8vw;
+    background-color: #0b0c10;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: auto;
+}
+app-heading1{
+    top: 8vw;
+    height: 8vw;
+    align-items: center;
+    display: flex;
+    padding: auto;
+    position: fixed;
 }
 section{
-    width: 33.3%;
-    float: inline-start;
+    top: 16vw;
+    bottom: 8vw;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     background-color: #2a2d36;
-    height: 100%;
 }
-footer{
-    padding: auto;
-    text-align: justify;
+app-first-block{
+    width: 33.3%;
+}
+app-second-block{
+    width: 33.3%;
+}
+app-third-block{
+    width: 33.3%;
+}
+app-footer{
+    position: fixed;
+    justify-content: space-between;
     background-color: #0b0c10;
     width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px;
+    height: 8vw;
 }
