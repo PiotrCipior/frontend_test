@@ -5,11 +5,11 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl:"./footer.component.html",
-  styles: ``
+  styleUrl: `./footer.component.scss`
 })
 export class FooterComponent {
   Show()
   {
-      alert("show work");
+      //alert("show work");
   }
 }

@@ -5,8 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './header.component.html',
+  
   styles: ``
 })
 export class HeaderComponent {
-
+  html5_logo_url = "../assets/images/html5.png"
 }

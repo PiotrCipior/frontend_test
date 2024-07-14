@@ -16,9 +16,36 @@ app-header{
     flex-wrap: nowrap;
     align-items: center;
     padding: auto;
+    p{
+        font-size: 2em;
+    }
     a{
         margin: 3%;
     }
+    img{
+        margin-top: 12px;
+        margin-left: 10px;
+        width: 60px;
+        filter: brightness(100);
+        align-items: center;
+    }
+    .html_logo{
+        height: 80px;
+        width: 80px;
+        background-color: #303030;
+        border-radius: 100%;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        &:hover{
+            background-color: #fd9d22;
+        }
+    }
+}
+h3{  
+    text-transform: uppercase;
+    text-overflow: clip;
+    text-wrap: nowrap;
+    
 }
 app-heading1{
     top: 8vh;
@@ -68,8 +95,7 @@ app-footer{
     align-items: center;
     padding: 10px;
     height: 8vh;
-    button{
-        margin: 3%;
-    }
     
+    
+
 }

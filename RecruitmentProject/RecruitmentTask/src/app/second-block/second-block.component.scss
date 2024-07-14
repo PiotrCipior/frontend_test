@@ -1,0 +1,20 @@
+button {
+    border: none;
+    color: #a2a8b8;
+    padding: 16px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 180px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #feffff;
+    border-radius: 5px;
+    &:hover {
+        background-color: #fd9d22;
+        color: #fffdf6;
+      }
+  }

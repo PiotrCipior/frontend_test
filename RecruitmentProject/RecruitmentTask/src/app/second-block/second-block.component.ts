@@ -16,7 +16,7 @@ import { FirstBlockComponent } from '../first-block/first-block.component';
       Doklej
     </button>
   `,
-  styles: ``
+  styleUrl: `./second-block.component.scss`
 })
 export class SecondBlockComponent {
     @Output() addEvent = new EventEmitter<number>();
